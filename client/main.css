@@ -1,0 +1,183 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* css for header */
+
+.gradient-gray-leftToRight {
+  background: #1b1818 n; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#1b1818, black); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#1b1818, black); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#1b1818, black); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#1b1818, black); /* Standard syntax */
+  color: white;
+}
+
+#logo {
+  height: 2.5em;
+  margin: 0.5em 0em 0.5em 0em;
+}
+
+header {
+  border: none;
+  border-bottom-width: 100px;
+  display: block;
+  clear: both;
+}
+
+nav {
+  padding: 0em;
+  border: 0em;
+  margin: 0em;
+}
+
+.main-nav-bar {
+  font-family: 'Gill Sans', Verdana, Lucida, Geneva, Helvetica, Arial, sans-serif;
+  display: block;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  text-decoration: none;
+  list-style: none;
+  margin: 0.2em;
+  clear: right;
+  top: 0em;
+  padding-left: 0px;
+  width: 100%;
+  border-bottom: ridge 0.025em #FF7800;
+}
+
+.main-nav-bar li {
+  text-decoration: none;
+  display: inline-block;
+  float: left;
+  color: #aaaaaa;
+  font-size: 1em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.main-nav-bar li a {
+  padding: 1em 1em 1em 1em;
+  text-decoration: none;
+  width: 100%;
+}
+
+html>body .main-nav-bar li a {
+  width: auto;
+}
+
+.main-nav-bar li a:visited {
+  color: inherit;
+}
+
+.main-nav-bar li a:hover {
+  color: #FF7800;
+}
+
+.main-nav-bar li a:active {
+  color: white;
+}
+
+.nav-link {
+  margin: 1em 1.25em 1em 1.25em;
+}
+
+/* css for platform */
+
+main {
+  height: 93%;
+  width: 100%;
+  position: relative;
+  display: block;
+  top: 4em;
+}
+
+.platform {
+  width: 67.5%;
+  display: inline-block;
+  float: left;
+  height: 100;
+  height: auto;
+  height: 100%;
+}
+
+.control-panel {
+  width: 32.3%;
+  display: flex;
+  left: 70%;
+  float: right;
+  border-left: ridge 0.05em #FF7800;
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.sem-type {
+  font-family: Verdana, fantasy, sans-serif;
+  font-size: 1em;
+  border: #FF7800 solid 0.5em;
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+  text-align: center;
+}
+
+.semester-container {
+  padding: 1em 1em 1em 1em;
+  height: 93%;
+  overflow-y: scroll;
+}
+
+.semester {
+  min-height: 20%;
+  border: #FF7800 solid 0.2em;
+  padding: 0.2em;
+  margin: 2em 0em 2em 0em;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3em 3em 3em 3em;
+  width: 85%;
+}
+
+#add-semester {
+
+}
+
+.module {
+  padding: 0.2em 0.2em 0.2em 0.2em;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* css for semester styling */
+h1 {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css for control panel */
