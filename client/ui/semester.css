@@ -77,3 +77,10 @@ p {
     padding: 1em 1em 1em 1em;
     overflow: auto;
 }
+
+.module:hover {
+    border-color: #FF7800;
+    color: #FF7800;
+    border-width: medium;
+        
+}
