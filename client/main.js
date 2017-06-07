@@ -2,7 +2,7 @@ import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 
 import './main.html';
-import './body.html';
+import './ui/semester.js';
 
 Template.hello.onCreated(function helloOnCreated() {
   // counter starts at 0

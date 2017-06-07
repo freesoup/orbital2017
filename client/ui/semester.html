@@ -1,14 +1,39 @@
-<article class="semester">
-  <div class="semester-metadata">
-    <h2 class="semester-number">1</h2>
-  </div>
-  <form class="sem-form">
-    <input type="text" class="sem-type" size="6" list="semester-type-list"/>
-    <datalist id="semester-type-list">
-      <option value="Sem 1"></option>
-      <option value="Sem 2"></option>
-      <option value="ST1"></option>
-      <option value="ST2"></option>
-    </datalist>
-  </form>
-</article>
+<template name="sem_template">
+    <article class="semester">
+        <section class="left-meta">
+            <h2 class="semester-number">1</h2>
+            <form class="sem-form">
+                <input placeholder="sem type" type="text" class="sem-type" size="6" list="semester-type-list"/>
+                <datalist id="semester-type-list">
+                    <option value="Sem 1"></option>
+                    <option value="Sem 2"></option>
+                    <option value="ST1"></option>
+                    <option value="ST2"></option>
+                </datalist>
+            </form>
+        </section>
+        <div class="module-container">
+            <div class="module">
+                CS1020
+            </div>
+            {{> module}}
+            {{> module}}
+            {{> module}}
+            {{> module}}
+            {{> module}}
+            {{> module}}
+            {{> module}}
+            {{> module}}
+            {{> module}}
+            {{> module}}
+            {{> module}}
+            
+        </div>
+    </article>
+</template>
+
+<template name="module">
+    <div class="module">
+        CS1020
+    </div>
+</template>

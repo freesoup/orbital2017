@@ -23,45 +23,13 @@
   <main class="main-content">
     <section class="platform">
       <div class="semester-container">
-        <article class="semester">
-          <div class="semester-metadata">
-            <h2 class="semester-number">1</h2>
-          </div>
-          <form class="sem-form">
-            <input type="text" class="sem-type" size="6" list="semester-type-list"/>
-            <datalist id="semester-type-list">
-              <option value="Sem 1"></option>
-              <option value="Sem 2"></option>
-              <option value="ST1"></option>
-              <option value="ST2"></option>
-            </datalist>
-          </form>
-        </article>
-
-        <article class="semester">
-          <p> t2 </p>
-        </article>
-
-        <article class="semester">
-          <p> t3 </p>
-        </article>
-
-        <article class="semester">
-          <p> t4 </p>
-        </article>
-
-        <article class="semester">
-          <p> t5 </p>
-        </article>
-
-        <article class="semester">
-          <p> t6 </p>
-        </article>
-
-
-        <article class="semester">
-          <p> t7 </p>
-        </article>
+          
+        {{> sem_template}}
+        {{> sem_template}}
+        {{> sem_template}}
+        {{> sem_template}}
+        {{> sem_template}}
+      
       </div>
 
       <div id="add-semester">
