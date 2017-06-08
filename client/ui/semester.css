@@ -66,6 +66,7 @@ p {
     border-radius: 0.5em; 
     border: white 1px double;
     margin: 1em 1em 1em 1em;
+    cursor: pointer;
 }
 
 
@@ -81,6 +82,5 @@ p {
 .module:hover {
     border-color: #FF7800;
     color: #FF7800;
-    border-width: medium;
-        
+    border-width: medium;        
 }
