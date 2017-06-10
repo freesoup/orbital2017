@@ -88,8 +88,13 @@ html>body .main-nav-bar li a {
   margin: 1em 1.25em 1em 1.25em;
 }
 
-/* css for platform */
 
+
+
+
+
+
+/* css for platform */
 main {
   height: 93%;
   width: 100%;
@@ -140,20 +145,6 @@ main {
 h1 {
   display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

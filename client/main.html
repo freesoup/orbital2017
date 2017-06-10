@@ -1,3 +1,4 @@
+<!-- contains meta information about the webpage -->
 <head>
   <title>NUSVision</title>
   <meta charset="utf-8">
@@ -8,40 +9,49 @@
 </head>
 
 <body class="gradient-gray-leftToRight">
-  <h1 class="hidden">NUSVision</h1>
-  <header class="header">
-    <nav>
-      <ul class="main-nav-bar">
-        <li><a href=""><img id="logo" src="NUSVision_Logo.svg" alt="NUSVision Logo"/></a></li>
-        <li class="nav-link"><a href="#">Home</a></li>
-        <li class="nav-link"><a href="#">Blog</a></li>
-        <li class="nav-link"><a href="#">Planner</a></li>
-      </ul>
-    </nav>
-  </header>
+    <!-- backward compatibility for name of webpage -->
+    <h1 class="hidden">NUSVision</h1>
+    <header class="header">
+        <nav>
+            <!-- main navigation bar -->
+            <ul class="main-nav-bar">
+                <li><a href=""><img id="logo" src="NUSVision_Logo.svg" alt="NUSVision Logo"/></a></li>
+                <li class="nav-link"><a href="#">Home</a></li>
+                <li class="nav-link"><a href="#">Blog</a></li>
+                <li class="nav-link"><a href="#">Planner</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main class="main-content">
-    <section class="platform">
-      <div class="semester-container">
+    <main class="main-content">
+        <!-- contains the planner platform -->
+        <section class="platform">
+            <!-- container for the semesters -->
+            <div class="semester-container">
           
-        {{> sem_template}}
-        {{> sem_template}}
-        {{> sem_template}}
-        {{> sem_template}}
-        {{> sem_template}}
+            {{> sem_template}}
+            {{> sem_template}}
+            {{> sem_template}}
+            {{> sem_template}}
+            {{> sem_template}}
       
-      </div>
+            </div>
+            
+            <!-- add new semesters by clicking on this div -->
+            <div id="add-semester">
+            </div>
+            
+        </section>
 
-      <div id="add-semester">
-      </div>
-
-    </section>
-
-    <aside class="control-panel">
-    </aside>
-  </main>
+        <!-- sidebar is meant for control panel -->
+        <aside class="control-panel">
+        </aside>
+    </main>
 </body>
 
+
+
+<!-- ignore templates below - they are default from meteor -->
 <template name="hello">
   <button>Click Me</button>
   <p>You've pressed the button {{counter}} times.</p>

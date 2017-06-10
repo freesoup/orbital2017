@@ -1,3 +1,4 @@
+/* semester styling */
 .sem-type {
   font-family: Verdana, fantasy, sans-serif;
   font-size: 1em;
@@ -51,9 +52,8 @@ p {
     border: 0.5px white double;
 }
 
-#add-semester {
 
-}
+/* module styling */
 
 .module {
     padding: auto;
