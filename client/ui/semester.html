@@ -14,17 +14,16 @@
             </form>
         </section>
         <ul class="module-container">
-            {{> module}}
-            {{> module}}
-            {{> module}}
-            {{> module}}
-            {{> module}}
-            {{> module}}
-            {{> module}}
-            {{> module}}
-            {{> module}}
-            {{> module}}
-            {{> module}}
+            {{> module number="1"}}
+            {{> module number="2"}}
+            {{> module number="3"}}
+            {{> module number="4"}}
+            {{> module number="5"}}
+            {{> module number="6"}}
+            {{> module number="7"}}
+            {{> module number="8"}}
+            {{> module number="9"}}
+            {{> module number="10"}}
         </ul>
     </article>
 </template>
@@ -32,6 +31,6 @@
 <!-- module template -->
 <template name="module">
     <li class="module">
-        CS1020
+       {{prefix}} CS1020 {{number}}   
     </li>
 </template>

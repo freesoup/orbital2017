@@ -5,5 +5,7 @@ import './semester.html';
 Template.sem_template.onRendered(function() {
     $('.module').draggable();
     $('module-container').droppable();
-    $('.module-container').sortable();
+    $('.module-container').sortable({
+        connectWith: ".module-container",
+    });  
 });
