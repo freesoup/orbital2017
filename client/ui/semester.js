@@ -4,5 +4,6 @@ import './semester.html';
 
 Template.sem_template.onRendered(function() {
     $('.module').draggable();
-    $('.semester').droppable();
+    $('module-container').droppable();
+    $('.module-container').sortable();
 });
