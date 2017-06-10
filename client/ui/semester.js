@@ -11,4 +11,5 @@ Template.module.events({
 
 Template.sem_template.onRendered(function() {
     $('.module').draggable();
+    $('.semester').droppable();
 });

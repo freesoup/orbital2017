@@ -22,3 +22,4 @@ insecure@1.0.7                # Allow all DB writes from clients (for prototypin
 jquery@1.11.10
 dynamic-import
 dbernhard:jquery-ui-draggable
+drewproud:jquery-ui-droppable
