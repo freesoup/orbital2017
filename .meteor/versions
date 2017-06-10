@@ -51,6 +51,7 @@ modules@0.9.1
 modules-runtime@0.8.0
 mongo@1.1.18
 mongo-id@1.0.6
+mrt:jquery-ui-sortable@1.10.3
 npm-mongo@2.2.24
 observe-sequence@1.0.16
 ordered-dict@1.0.9

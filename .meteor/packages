@@ -23,3 +23,4 @@ jquery@1.11.10
 dynamic-import
 dbernhard:jquery-ui-draggable
 drewproud:jquery-ui-droppable
+mrt:jquery-ui-sortable
