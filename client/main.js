@@ -1,8 +1,10 @@
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
+import { HTTP } from 'meteor/http'
 
 import './main.html';
 import './ui/semester.js';
+
 
 Template.hello.onCreated(function helloOnCreated() {
   // counter starts at 0
