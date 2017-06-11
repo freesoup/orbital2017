@@ -1,6 +1,7 @@
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
-import { HTTP } from 'meteor/http'
+import { HTTP } from 'meteor/http';
+import { Blaze } from 'meteor/blaze';
 
 import './main.html';
 import './ui/semester.js';
@@ -21,4 +22,12 @@ Template.hello.events({
     // increment the counter when button is clicked
     instance.counter.set(instance.counter.get() + 1);
   },
+});
+
+Template.platform.events({
+   'click #add-semester-logo'(event) {
+       let myContainer = document.getElementById('semester-container'); 
+       let addSem = document.getElementById('add-semester');
+       let renderedTemplate = Blaze.render(Template.sem_template, myContainer, addSem);
+   },
 });

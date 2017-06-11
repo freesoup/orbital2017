@@ -126,7 +126,7 @@ main {
   display: none;
 }
 
-.semester-container {
+#semester-container {
   padding: 0em 1em 0em 1em;
   height: 93%;
   overflow-y: scroll;

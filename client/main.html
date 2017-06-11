@@ -25,21 +25,7 @@
 
     <main class="main-content">
         <!-- contains the planner platform -->
-        <section class="platform">
-            <!-- container for the semesters -->
-            <div class="semester-container">
-          
-            {{> sem_template }}
-            {{> sem_template }}
-            {{> sem_template }}
-            {{> sem_template }}
-            {{> sem_template }}
-                <!-- add new semesters by clicking on this div -->
-                <div id="add-semester">
-                    <img id="add-semester-logo" src="add-semester.svg" alt="add semester">
-                </div>
-            </div>
-        </section>
+        {{> platform}}
 
         <!-- sidebar is meant for control panel -->
         <aside class="control-panel">
@@ -63,4 +49,21 @@
     <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
     <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
   </ul>
+</template>
+
+<template name="platform">
+    <section class="platform">
+        <!-- container for the semesters -->
+        <div id="semester-container">  
+            {{> sem_template }}
+            {{> sem_template }}
+            {{> sem_template }}
+            {{> sem_template }}
+            {{> sem_template }}
+            <!-- add new semesters by clicking on this div -->
+            <div id="add-semester">
+                <img id="add-semester-logo" src="add-semester.svg" alt="add semester">
+            </div>
+        </div>
+    </section>
 </template>
