@@ -5,7 +5,6 @@ import { HTTP } from 'meteor/http'
 import './main.html';
 import './ui/semester.js';
 
-
 Template.hello.onCreated(function helloOnCreated() {
   // counter starts at 0
   this.counter = new ReactiveVar(0);
